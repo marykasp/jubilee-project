@@ -1,0 +1,182 @@
+/*******Base Styles******/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+/****** GRID *******/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/**** HEADER *****/
+
+.navigation {
+	background-color: #ffff;
+}
+
+header {
+	height: 800px;
+	background: url(../img/landscape-watering-water.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header h1 {
+	padding: 35px 0;
+	font-family:'Lora', serif;
+	font-size: 30px; 
+	color: #024F5F;
+}
+
+nav {
+	float: right;
+	padding: 55px 40px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #979797;
+	padding-left: 80px;
+}
+
+header h2 {
+	width: 1,000px;
+	clear: both;
+	font-family:'Lora', serif;;
+	font-size: 80px;
+	line-height: 80px;
+	color: #2b2b2b;
+	padding: 20px 0;
+}
+
+header h2 span {
+	color: #024F5F;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+
+#about p {
+	font-size: 21px;
+	color:#7f7f7f;
+	line-height: 41px;
+	padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work {
+    background-color: #f8fafa;
+    text-align: center;
+}
+
+#work .full-width {
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	font-size: 24px;
+	width: 190px;  /* HOW DO YOU FIND? */
+	margin: 0 auto;
+}
+
+#work p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 33px; /* 18 + 30/2 */
+	color: #444;
+	padding:0 35px;
+}
+
+/****** CONTACT *****/
+
+#contact {
+	background-color: #ffff;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+}
+
+#contact-image {
+	border: 12px solid #ffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+
+#envelope {
+	padding: 0 10px 0 115px;
+}
+
+#contact-info h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+
+#email-header {
+	font-size: 32px;
+	font-weight: 400;
+	margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+	font-weight: bold;
+	font-size: 29px;
+	margin: 40px 0 0 0;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #c49075;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 48px;
+}
